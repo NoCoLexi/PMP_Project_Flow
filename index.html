@@ -157,6 +157,34 @@
             margin-bottom: 0;
         }
         
+        .formula-box {
+            background: #e8f4fd;
+            border: 1px solid #bee5eb;
+            border-radius: 4px;
+            padding: 8px;
+            margin-top: 8px;
+            font-size: 0.85rem;
+        }
+        
+        .formula-title {
+            font-weight: 600;
+            color: #0c5460;
+            margin-bottom: 4px;
+        }
+        
+        .formula-content {
+            color: #495057;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .pmbok-ref {
+            font-size: 0.75rem;
+            color: #6c757d;
+            font-style: italic;
+            text-align: right;
+            margin-top: 4px;
+        }
+        
         .flow-connections {
             display: flex;
             justify-content: center;
@@ -294,7 +322,9 @@
                         <div class="ka-process"><strong>Develop Project Charter</strong><br>
                         • Business case & high-level requirements<br>
                         • Stakeholder identification<br>
-                        • PM assignment & authority</div>
+                        • PM assignment & authority
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.75</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area stakeholders">
@@ -302,7 +332,9 @@
                         <div class="ka-process"><strong>Identify Stakeholders</strong><br>
                         • Map all project stakeholders<br>
                         • Assess influence & interest<br>
-                        • Document stakeholder register</div>
+                        • Document stakeholder register
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.507</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -331,7 +363,9 @@
                         <div class="ka-process"><strong>Develop Project Management Plan</strong><br>
                         • Integrate all subsidiary plans<br>
                         • Define life cycle approach<br>
-                        • Establish baselines</div>
+                        • Establish baselines
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.82</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area scope">
@@ -339,19 +373,27 @@
                         <div class="ka-process"><strong>Plan Scope Management</strong><br>
                         • Scope management plan<br>
                         • Requirements management plan<br>
-                        • Scope definition approach</div>
+                        • Scope definition approach
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.131</div>
+                        </div>
                         <div class="ka-process"><strong>Collect Requirements</strong><br>
                         • Requirements documentation<br>
                         • Requirements traceability matrix<br>
-                        • Requirements management plan updates</div>
+                        • Requirements management plan updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.138</div>
+                        </div>
                         <div class="ka-process"><strong>Define Scope</strong><br>
                         • Project scope statement<br>
                         • Scope baseline<br>
-                        • Project deliverables</div>
+                        • Project deliverables
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.151</div>
+                        </div>
                         <div class="ka-process"><strong>Create WBS</strong><br>
                         • Work Breakdown Structure<br>
                         • WBS dictionary<br>
-                        • Scope baseline updates</div>
+                        • Scope baseline updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.157</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area schedule">
@@ -359,23 +401,37 @@
                         <div class="ka-process"><strong>Plan Schedule Management</strong><br>
                         • Schedule management plan<br>
                         • Scheduling methodology<br>
-                        • Schedule control procedures</div>
+                        • Schedule control procedures
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.179</div>
+                        </div>
                         <div class="ka-process"><strong>Define Activities</strong><br>
                         • Activity list<br>
                         • Activity attributes<br>
-                        • Milestone list</div>
+                        • Milestone list
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.185</div>
+                        </div>
                         <div class="ka-process"><strong>Sequence Activities</strong><br>
                         • Project schedule network diagrams<br>
                         • Activity dependencies<br>
-                        • Lead and lag relationships</div>
+                        • Lead and lag relationships
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.192</div>
+                        </div>
                         <div class="ka-process"><strong>Estimate Activity Durations</strong><br>
                         • Activity duration estimates<br>
                         • Estimation basis<br>
-                        • Duration estimate updates</div>
+                        • Duration estimate updates
+                        <div class="formula-box">
+                            <div class="formula-title">📊 PERT Formula</div>
+                            <div class="formula-content">tE = (tO + 4tM + tP) / 6</div>
+                        </div>
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.204</div>
+                        </div>
                         <div class="ka-process"><strong>Develop Schedule</strong><br>
                         • Project schedule<br>
                         • Schedule baseline<br>
-                        • Schedule data</div>
+                        • Schedule data
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.210</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area cost">
@@ -383,15 +439,25 @@
                         <div class="ka-process"><strong>Plan Cost Management</strong><br>
                         • Cost management plan<br>
                         • Cost estimation approach<br>
-                        • Budget control procedures</div>
+                        • Budget control procedures
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.235</div>
+                        </div>
                         <div class="ka-process"><strong>Estimate Costs</strong><br>
                         • Activity cost estimates<br>
                         • Cost estimation basis<br>
-                        • Cost estimate updates</div>
+                        • Cost estimate updates
+                        <div class="formula-box">
+                            <div class="formula-title">📊 Three-Point Estimating</div>
+                            <div class="formula-content">cE = (cO + 4cM + cP) / 6</div>
+                        </div>
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.241</div>
+                        </div>
                         <div class="ka-process"><strong>Determine Budget</strong><br>
                         • Cost baseline<br>
                         • Project funding requirements<br>
-                        • Cost contingency reserves</div>
+                        • Cost contingency reserves
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.254</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area quality">
@@ -399,7 +465,9 @@
                         <div class="ka-process"><strong>Plan Quality Management</strong><br>
                         • Define quality standards<br>
                         • Quality assurance approach<br>
-                        • Quality control methods</div>
+                        • Quality control methods
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.277</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area resources">
@@ -407,11 +475,15 @@
                         <div class="ka-process"><strong>Plan Resource Management</strong><br>
                         • Resource management plan<br>
                         • Team charter<br>
-                        • Resource breakdown structure</div>
+                        • Resource breakdown structure
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.307</div>
+                        </div>
                         <div class="ka-process"><strong>Estimate Activity Resources</strong><br>
                         • Resource requirements<br>
                         • Resource breakdown structure<br>
-                        • Resource calendar updates</div>
+                        • Resource calendar updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.320</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area communications">
@@ -419,7 +491,13 @@
                         <div class="ka-process"><strong>Plan Communications Management</strong><br>
                         • Stakeholder communication needs<br>
                         • Communication methods & frequency<br>
-                        • Escalation procedures</div>
+                        • Escalation procedures
+                        <div class="formula-box">
+                            <div class="formula-title">📊 Communication Channels</div>
+                            <div class="formula-content">n(n-1)/2 where n = # of people</div>
+                        </div>
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.366</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area risk">
@@ -427,23 +505,33 @@
                         <div class="ka-process"><strong>Plan Risk Management</strong><br>
                         • Risk management plan<br>
                         • Risk categories<br>
-                        • Risk assessment approach</div>
+                        • Risk assessment approach
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.401</div>
+                        </div>
                         <div class="ka-process"><strong>Identify Risks</strong><br>
                         • Risk register<br>
                         • Risk report<br>
-                        • Risk categories updates</div>
+                        • Risk categories updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.409</div>
+                        </div>
                         <div class="ka-process"><strong>Perform Qualitative Risk Analysis</strong><br>
                         • Risk register updates<br>
                         • Risk probability/impact matrix<br>
-                        • Risk categorization</div>
+                        • Risk categorization
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.419</div>
+                        </div>
                         <div class="ka-process"><strong>Perform Quantitative Risk Analysis</strong><br>
                         • Risk register updates<br>
                         • Risk report updates<br>
-                        • Probabilistic analysis results</div>
+                        • Probabilistic analysis results
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.428</div>
+                        </div>
                         <div class="ka-process"><strong>Plan Risk Responses</strong><br>
                         • Risk register updates<br>
                         • Risk response strategies<br>
-                        • Contingency plans</div>
+                        • Contingency plans
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.437</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area procurement">
@@ -451,7 +539,9 @@
                         <div class="ka-process"><strong>Plan Procurement Management</strong><br>
                         • Make-or-buy decisions<br>
                         • Contract types & terms<br>
-                        • Vendor selection criteria</div>
+                        • Vendor selection criteria
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.459</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area stakeholders">
@@ -459,7 +549,9 @@
                         <div class="ka-process"><strong>Plan Stakeholder Engagement</strong><br>
                         • Engagement strategies<br>
                         • Communication preferences<br>
-                        • Influence/interest matrix</div>
+                        • Influence/interest matrix
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.512</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -488,11 +580,15 @@
                         <div class="ka-process"><strong>Direct & Manage Project Work</strong><br>
                         • Deliverables<br>
                         • Work performance data<br>
-                        • Change requests</div>
+                        • Change requests
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.90</div>
+                        </div>
                         <div class="ka-process"><strong>Manage Project Knowledge</strong><br>
                         • Lessons learned register<br>
                         • Knowledge repository updates<br>
-                        • OPA updates</div>
+                        • OPA updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.98</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area quality">
@@ -500,7 +596,9 @@
                         <div class="ka-process"><strong>Manage Quality</strong><br>
                         • Quality assurance activities<br>
                         • Process improvements<br>
-                        • Quality audits</div>
+                        • Quality audits
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.288</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area resources">
@@ -508,15 +606,21 @@
                         <div class="ka-process"><strong>Acquire Resources</strong><br>
                         • Physical resource assignments<br>
                         • Project team assignments<br>
-                        • Resource calendars</div>
+                        • Resource calendars
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.330</div>
+                        </div>
                         <div class="ka-process"><strong>Develop Team</strong><br>
                         • Team performance assessments<br>
                         • Team charter updates<br>
-                        • Team building activities</div>
+                        • Team building activities
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.336</div>
+                        </div>
                         <div class="ka-process"><strong>Manage Team</strong><br>
                         • Team performance assessments<br>
                         • Change requests<br>
-                        • Team management updates</div>
+                        • Team management updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.345</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area communications">
@@ -524,7 +628,9 @@
                         <div class="ka-process"><strong>Manage Communications</strong><br>
                         • Status reporting<br>
                         • Information distribution<br>
-                        • Performance reporting</div>
+                        • Performance reporting
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.377</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area risk">
@@ -532,7 +638,9 @@
                         <div class="ka-process"><strong>Implement Risk Responses</strong><br>
                         • Execute planned risk responses<br>
                         • Track identified risks<br>
-                        • Monitor for new risks</div>
+                        • Monitor for new risks
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.449</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area procurement">
@@ -540,7 +648,9 @@
                         <div class="ka-process"><strong>Conduct Procurements</strong><br>
                         • Vendor selection<br>
                         • Contract negotiation<br>
-                        • Contract award</div>
+                        • Contract award
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.473</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area stakeholders">
@@ -548,7 +658,9 @@
                         <div class="ka-process"><strong>Manage Stakeholder Engagement</strong><br>
                         • Address stakeholder concerns<br>
                         • Manage expectations<br>
-                        • Facilitate collaboration</div>
+                        • Facilitate collaboration
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.523</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -577,11 +689,15 @@
                         <div class="ka-process"><strong>Monitor & Control Project Work</strong><br>
                         • Work performance reports<br>
                         • Change requests<br>
-                        • Project document updates</div>
+                        • Project document updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.105</div>
+                        </div>
                         <div class="ka-process"><strong>Perform Integrated Change Control</strong><br>
                         • Approved change requests<br>
                         • Change log updates<br>
-                        • Project document updates</div>
+                        • Project document updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.113</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area scope">
@@ -589,11 +705,15 @@
                         <div class="ka-process"><strong>Validate Scope</strong><br>
                         • Accepted deliverables<br>
                         • Change requests<br>
-                        • Work performance information</div>
+                        • Work performance information
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.163</div>
+                        </div>
                         <div class="ka-process"><strong>Control Scope</strong><br>
                         • Work performance information<br>
                         • Change requests<br>
-                        • Scope baseline updates</div>
+                        • Scope baseline updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.168</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area schedule">
@@ -601,7 +721,9 @@
                         <div class="ka-process"><strong>Control Schedule</strong><br>
                         • Schedule performance analysis<br>
                         • Schedule compression<br>
-                        • Schedule updates</div>
+                        • Schedule updates
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.222</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area cost">
@@ -609,7 +731,17 @@
                         <div class="ka-process"><strong>Control Costs</strong><br>
                         • Earned Value Management<br>
                         • Budget performance<br>
-                        • Cost forecasting</div>
+                        • Cost forecasting
+                        <div class="formula-box">
+                            <div class="formula-title">📊 EVM Formulas</div>
+                            <div class="formula-content">
+                                CPI = EV/AC | SPI = EV/PV<br>
+                                CV = EV-AC | SV = EV-PV<br>
+                                EAC = BAC/CPI | TCPI = (BAC-EV)/(BAC-AC)
+                            </div>
+                        </div>
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.267</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area quality">
@@ -617,7 +749,16 @@
                         <div class="ka-process"><strong>Control Quality</strong><br>
                         • Quality inspections<br>
                         • Defect tracking<br>
-                        • Quality metrics</div>
+                        • Quality metrics
+                        <div class="formula-box">
+                            <div class="formula-title">📊 7 Basic Quality Tools</div>
+                            <div class="formula-content">
+                                Fishbone, Flowcharts, Checksheets<br>
+                                Pareto, Histograms, Control Charts, Scatter
+                            </div>
+                        </div>
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.298</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area resources">
@@ -625,7 +766,9 @@
                         <div class="ka-process"><strong>Control Resources</strong><br>
                         • Resource performance<br>
                         • Resource optimization<br>
-                        • Team performance</div>
+                        • Team performance
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.355</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area communications">
@@ -633,7 +776,9 @@
                         <div class="ka-process"><strong>Monitor Communications</strong><br>
                         • Communication effectiveness<br>
                         • Information quality<br>
-                        • Stakeholder feedback</div>
+                        • Stakeholder feedback
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.388</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area risk">
@@ -641,7 +786,9 @@
                         <div class="ka-process"><strong>Monitor Risks</strong><br>
                         • Risk reassessment<br>
                         • Risk response effectiveness<br>
-                        • New risk identification</div>
+                        • New risk identification
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.453</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area procurement">
@@ -649,7 +796,9 @@
                         <div class="ka-process"><strong>Control Procurements</strong><br>
                         • Contract performance<br>
                         • Vendor management<br>
-                        • Contract changes</div>
+                        • Contract changes
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.486</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area stakeholders">
@@ -657,7 +806,9 @@
                         <div class="ka-process"><strong>Monitor Stakeholder Engagement</strong><br>
                         • Engagement effectiveness<br>
                         • Relationship quality<br>
-                        • Satisfaction levels</div>
+                        • Satisfaction levels
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.530</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -687,7 +838,9 @@
                         • Final deliverable acceptance<br>
                         • Lessons learned documentation<br>
                         • Project archives<br>
-                        • Resource release</div>
+                        • Resource release
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.121</div>
+                        </div>
                     </div>
                     
                     <div class="knowledge-area procurement">
@@ -696,7 +849,9 @@
                         • Contract closure<br>
                         • Final payments<br>
                         • Performance evaluation<br>
-                        • Vendor feedback</div>
+                        • Vendor feedback
+                        <div class="pmbok-ref">PMBoK 6th Ed. p.495</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -854,30 +1009,16 @@
 
             <!-- FINAL TIPS -->
             <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
-                <h3 style="margin-bottom: 15px;">💡 Remember: You're the Project Integrator</h3>
+                <h3 style="margin-bottom: 15px;">💡 You're the Project Integrator</h3>
                 <p style="font-size: 1.1rem; margin-bottom: 10px;">As the Project Manager, you're not expected to be an expert in every knowledge area, but you must coordinate them all effectively.</p>
-                <p style="font-style: italic;">Think of yourself as the conductor who brings out the best performance from each section of your project orchestra! 🎼</p>
             </div>
         </div>
     </div>
 
     <script>
-        // Add some interactive elements
+        // Add some interactive elements for the overall layout
         document.addEventListener('DOMContentLoaded', function() {
-            // Add hover effects for knowledge areas
-            const knowledgeAreas = document.querySelectorAll('.knowledge-area');
-            
-            knowledgeAreas.forEach(area => {
-                area.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-8px) scale(1.02)';
-                });
-                
-                area.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(-5px) scale(1)';
-                });
-            });
-
-            // Add click to highlight related processes
+            // Add click to highlight process groups
             const processGroups = document.querySelectorAll('.process-group');
             processGroups.forEach((group, index) => {
                 group.addEventListener('click', function() {
@@ -903,15 +1044,6 @@
         .highlighted {
             box-shadow: 0 0 20px rgba(52, 152, 219, 0.3) !important;
             border-radius: 15px;
-        }
-        
-        .ka-process {
-            transition: all 0.2s ease;
-        }
-        
-        .ka-process:hover {
-            background: #e3f2fd !important;
-            transform: translateX(5px);
         }
     </style>
 </body>
